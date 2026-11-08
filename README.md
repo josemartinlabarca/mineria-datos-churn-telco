@@ -14,6 +14,7 @@ Evaluación y laboratorios del curso, cada uno en su carpeta con su propio READM
 
 | N.º | Actividad | Técnica | Pregunta | Colab |
 |---|---|---|---|---|
+| 01 | [Análisis exploratorio](lab-01-eda-precios-viviendas/) | EDA (comprensión de datos, CRISP-DM) | ¿Qué calidad y estructura tienen los datos de ventas de viviendas? | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/josemartinlabarca/mineria-datos-churn-telco/blob/main/lab-01-eda-precios-viviendas/Lab01_EDA_Labarca_jose.ipynb) |
 | U1 | [Evaluación Unidad 1](evaluacion-u1-churn-telco/) | Reglas de asociación + árbol de decisión (CRISP-DM) | ¿Qué clientes de una telco tienen más riesgo de irse? | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/josemartinlabarca/mineria-datos-churn-telco/blob/main/evaluacion-u1-churn-telco/EvaluacionUnidad1Joselabarca.ipynb) |
 | 2.6 | [Reglas de asociación](lab-2-6-reglas-asociacion/) | Apriori | ¿Qué productos se compran juntos en un supermercado? | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/josemartinlabarca/mineria-datos-churn-telco/blob/main/lab-2-6-reglas-asociacion/Lab_2_6_Reglas_Asociacion.ipynb) |
 | 2.8 | [Regresión lineal](lab-2-8-regresion-lineal/) | Regresión simple y múltiple | ¿Cuándo se puede confiar en un modelo con R² alto? | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/josemartinlabarca/mineria-datos-churn-telco/blob/main/lab-2-8-regresion-lineal/Lab_2_8_Regresion_Lineal.ipynb) |
@@ -30,6 +31,7 @@ Evaluación y laboratorios del curso, cada uno en su carpeta con su propio READM
 
 ```
 .
+├── lab-01-eda-precios-viviendas/
 ├── evaluacion-u1-churn-telco/
 ├── lab-2-6-reglas-asociacion/
 ├── lab-2-8-regresion-lineal/
@@ -41,7 +43,7 @@ Cada carpeta tiene el notebook y un README con el problema, los datos, las decis
 ## Cómo ejecutar los notebooks
 
 1. Abrir el notebook con su botón **Open in Colab**.
-2. Para los laboratorios de la Unidad II, guardar el token de Kaggle en los **Secretos de Colab** (🔑) como `KAGGLE_API_TOKEN` y activar el acceso del notebook. La Evaluación U1 no lo necesita.
+2. Para los laboratorios de la Unidad II, guardar el token de Kaggle en los **Secretos de Colab** (🔑) como `KAGGLE_API_TOKEN` y activar el acceso del notebook. La Evaluación U1 no lo necesita, y el Lab 01 pide subir el CSV a mano.
 3. Ejecutar **Entorno de ejecución → Reiniciar sesión y ejecutar todo**.
 
 Los datasets se descargan al ejecutar. Ningún token ni credencial se guarda en este repositorio.
